@@ -1,4 +1,6 @@
-# Mihoyo sign in
+# 本仓库来自https://github.com/jianggaocheng/mihoyo-signin
+# 不用fork是有点原因的（https://www.freebuf.com/articles/paper/268829.html）
+# 有啥问题，请前往原仓库
 
 ![badge](https://github.com/jianggaocheng/mihoyo-signin/workflows/Mihoyo%20SignIn/badge.svg)
 
@@ -58,6 +60,10 @@ COOKIE_STRING='stuid=*******;stoken=****************;login_ticket=**************
 
 ### 添加 Cookie 至 Secrets
 回到项目页面，依次点击Settings-->Secrets-->New secret
+
+# 给我自己的提示：COOKIE_STRING='stuid=***;stoken=****;login_ticket=*******;' 
+
+secret COOKIE_STRING中输入的内容是stuid=***;stoken=****;login_ticket=*******;不需要引号和其他的东西
 
 建立名为 `COOKIE_STRING` 的 secret，值为获取 cookie 中 COOKIE_STRING 的内容，最后点击 Add secret
 
